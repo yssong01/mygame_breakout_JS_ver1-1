@@ -1,6 +1,8 @@
 # 🎮 JS Breakout
 
-Python(Pygame)으로 만들었던 벽돌깨기 게임을 **HTML5 Canvas + 순수 JavaScript(OOP)**로 포팅한 버전입니다. 기존 Python 코드의 구조와 기능을 최대한 유지하면서, 브라우저에서 바로 실행 가능한 교육용 예제로 구성했습니다.
+Python(Pygame)으로 만들었던 벽돌깨기 게임을 **HTML5 Canvas + 순수 JavaScript(OOP)**로 포팅한 버전입니다.
+
+기존 Python 코드의 구조와 기능을 최대한 유지하면서, 브라우저에서 바로 실행 가능한 교육용 예제로 구성했습니다.
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -26,6 +28,10 @@ Python Pygame 기반 벽돌깨기 게임을 **웹 브라우저에서 실행 가�
 ---
 
 ## 🎮 게임 방법
+
+### 실행방법
+
+game.js
 
 ### 조작키
 
@@ -161,6 +167,12 @@ js-breakout/
 ---
 
 ## 🚀 실행 방법
+
+### 0. 간단 실행 방법
+
+VScode 에서 index.html 또는 game.js 에서,
+
+Alt + l + o 동시에 누름. -> Start Game 클릭 -> 좌우 방향키 누름.
 
 ### 1. 저장소 클론
 

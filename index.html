@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Breakout OOP</title>
+    <style>
+      body {
+        margin: 0;
+        background: #111;
+        color: #eee;
+        font-family: system-ui, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h2 {
+        margin-top: 16px;
+        margin-bottom: 4px;
+      }
+      p {
+        margin: 2px 0 8px;
+      }
+      #game {
+        background: #000;
+        border: 2px solid #555;
+        display: block;
+        margin-bottom: 12px;
+      }
+      #startBtn {
+        padding: 0.4rem 0.8rem;
+        border-radius: 4px;
+        border: 1px solid #666;
+        background: #333;
+        color: #fff;
+        cursor: pointer;
+      }
+      #startBtn:disabled {
+        opacity: 0.5;
+        cursor: default;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>JavaScript Breakout (OOP + BGM)</h2>
+    <p>← / → 키로 패들을 움직이세요. 버튼을 눌러 게임 시작!</p>
+    <button id="startBtn">▶ Start Game</button>
+    <canvas id="game" width="800" height="600"></canvas>
+
+    <!-- 게임 로직 -->
+    <script src="game.js"></script>
+  </body>
+</html>

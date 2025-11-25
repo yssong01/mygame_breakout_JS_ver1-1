@@ -1,0 +1,22 @@
+4. 실행 방법 (VS Code 기준)
+
+VS Code에서 breakout-js 폴더가 열린 상태에서
+index.html, game.js, assets/... 가 위 구조대로 잘 들어있는지 확인
+
+
+방법 A – Live Server 사용 (추천)
+
+
+VS Code 확장(Extensions)에서 Live Server 설치
+
+index.html 열고, 우클릭 → Open with Live Server
+
+기본 브라우저가 열리면 ▶ Start Game 버튼을 클릭 → 게임 시작 + BGM 재생
+
+
+방법 B – 그냥 파일 열기
+
+
+탐색기에서 index.html 을 더블클릭해 브라우저로 열기
+
+마찬가지로 ▶ Start Game 을 눌러서 실행

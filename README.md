@@ -1,4 +1,4 @@
-# 🎮 JS Breakout
+# 🎮 Breakout (by JS)
 
 Python(Pygame)으로 만들었던 벽돌깨기 게임을 **HTML5 Canvas + 순수 JavaScript(OOP)**로 포팅한 버전입니다.
 
